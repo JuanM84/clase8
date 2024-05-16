@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerarPrimo", "GenerarPrimo\GenerarPrimo.csproj", "{40D2A8C9-02C1-49D2-B58A-56667E78DF46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerificarPrimo", "VerificarPrimo\VerificarPrimo.csproj", "{2F15EEF4-C318-45A0-A4B3-F76BE189912A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40D2A8C9-02C1-49D2-B58A-56667E78DF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D2A8C9-02C1-49D2-B58A-56667E78DF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D2A8C9-02C1-49D2-B58A-56667E78DF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D2A8C9-02C1-49D2-B58A-56667E78DF46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F15EEF4-C318-45A0-A4B3-F76BE189912A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F15EEF4-C318-45A0-A4B3-F76BE189912A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F15EEF4-C318-45A0-A4B3-F76BE189912A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F15EEF4-C318-45A0-A4B3-F76BE189912A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9ADBAD1-14AE-4ED2-AFC3-6B2FDAADE221}
+	EndGlobalSection
+EndGlobal
