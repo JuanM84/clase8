@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,6 +9,18 @@ namespace GenerarPrimo
 {
     internal class Program
     {
+        static bool VerificarPrimo(int num)
+        {
+            int contD = 0;
+            for (int i = 1; i <= num; i++)
+            {
+                if (num % i == 0)
+                {
+                    contD++;
+                }
+            }
+            return (contD <= 2);
+        }
         static void Main(string[] args)
         {
             int desde, hasta, contD=0, primos=0;
@@ -19,19 +32,11 @@ namespace GenerarPrimo
 
             for(int i = desde; i <= hasta; i++)
             {
-                for (int j = 1; j <= i; j++)
-                {
-                    if (i % j == 0)
-                    {
-                        contD++;
-                    }
-                }
-                if (contD <= 2)
+                if (VerificarPrimo(i))
                 {
                     Console.WriteLine("El número {0} es primo", i);
                     primos++;
                 }
-                contD = 0;
             }
             Console.WriteLine("-- Hay {0} entre {1} y {2} --", primos, desde, hasta);
             Console.ReadKey();
